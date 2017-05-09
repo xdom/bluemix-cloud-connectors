@@ -1,4 +1,5 @@
 net.bluemix.connectors.cloudfoundry.creator.CloudantServiceInfoCreator
+net.bluemix.connectors.cloudfoundry.creator.ComposeForMongoDBServiceInfoCreator
 net.bluemix.connectors.cloudfoundry.creator.ComposeForPostgresqlServiceInfoCreator
 net.bluemix.connectors.cloudfoundry.creator.IBMGraphDbServiceInfoCreator
 net.bluemix.connectors.cloudfoundry.creator.IBMObjectStorageServiceInfoCreator
