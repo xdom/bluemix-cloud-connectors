@@ -45,6 +45,7 @@ public class ComposeForMongoDBServiceInfoCreator extends CloudFoundryServiceInfo
 
     @Override
     public ComposeForMongoDBServiceInfo createServiceInfo(Map<String, Object> serviceData) {
+        LOG.info("Creating MongoDB service info");
         String id = getId(serviceData);
         Map<String, Object> credentials = getCredentials(serviceData);
         MongoClientURI mongoURI = new MongoClientURI(getUriFromCredentials(credentials));
